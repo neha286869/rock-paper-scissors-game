@@ -1,0 +1,71 @@
+body {
+  /* background-color: black; */
+  color :white; 
+  text-align: center;
+  background-image: url('/template/gopdfs3.png');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.container{
+ border-radius: 25px;
+  background-color: rgb(209, 11, 11);
+  background-color:#e60505c2;
+  padding-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 50px ;
+  /* align-items: center; */
+  border-style: dotted;
+
+}
+
+.font{
+  font-size: larger;
+  margin-bottom: auto;
+  font-style: italic; 
+  font-weight: bold;
+}
+
+.center{
+  display: grid;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* .animation-padding{
+  margin-top: -100px;
+} */
+
+.animation{
+  height: 50px;
+  overflow: hidden ; 
+  margin: 1rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.animation > h1 > h1 > h1 {
+padding-top: -2px;
+  height: 2px;
+  margin-bottom: 2px;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 7s -2s infinite ease;
+}
+
+@keyframes text-animation {
+  /* 0% {margin-top: 0;} */
+  30% {margin-top: -0px;}
+  /* 20% {margin-top: -8px;} */
+  /* 50% {margin-top: -10px;} */
+  40% {margin-top: -60px}
+  60% {margin-top: -120px;}
+  80% {margin-top: -60px;}
+  /* 80% {margin-top: -5.62rem;} */
+  /* 90% {margin-top: 0;} */
+  100% {margin-top: 0;}}
